@@ -31,23 +31,18 @@ project/
 
 ├── api/
 │   └── bot.js
-
 ├── database/
 │   ├── users.json
 │   ├── subscriptions.json
 │   ├── codes.json
 │   └── credits.json
-
 ├── utils/
 │   ├── api.js
 │   ├── credits.js
 │   ├── redeem.js
 │   └── subscription.js
-
 ├── config.js
-
 ├── package.json
-
 └── README.md
 ```
 
@@ -154,13 +149,13 @@ https://api.example.com/?number=9876543210
 
 Unwanted fields are automatically removed.
 
-Filtered keys:
+Filtered keys: when if u use someone api
 
 ```json
 {
  "number_info": null,
- "developer": "WASIF ALI",
- "telegram": "@FREEHACKS95"
+ "developer": "J€¥",
+ "telegram": "@Example"
 }
 ```
 
